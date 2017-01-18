@@ -1,0 +1,17 @@
+@mixin title {
+    .title {
+        margin: 188px 0 auto;
+        text-align: center;
+        h1 {
+            margin-bottom: 29px;
+            font:700 72px / 51px $raleway;
+            color: #f9fafe;
+            text-transform: uppercase;
+        }
+        span {
+            font: 400 30px / 20px $open-sans;
+            color: #f9fafe;
+            text-transform: uppercase;
+        }
+    }
+}

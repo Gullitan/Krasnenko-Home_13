@@ -1,0 +1,88 @@
+header {
+    background: url("../img/home-img.png") no-repeat;
+    .logo {
+        overflow: hidden;
+        padding-top: 25px;
+        padding-bottom: 37px;
+        a {
+            display: block;
+            float: left;
+            img {
+                margin-top: 8px;
+            }
+        }
+        .nav {
+            float: right;
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    color: white;
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                }
+                .but {
+                    border: 1px solid #f9fafe;
+                    padding: 10px 40px;
+                }
+            }
+        }
+    }
+    .wrap {
+        @include title;
+        .form-element {
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 230px;
+            input {
+                margin-top: 90px;
+                width: 571px;
+                height: 60px;
+                border-radius: 5px;
+                border: none;
+            }
+            a {
+                margin-left: -10px;
+                color: white;
+                padding: 22px 22px;
+                background-color: #e7434e;
+                border-radius: 0 5px 5px 0;
+            }
+        }
+        .numb {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+            max-width: 1200px;
+            padding: 30px 0;
+            position: relative;
+            left: 5%;
+            .numbers {
+                margin-bottom: 0;
+                padding-left: 0;
+                list-style: none;
+                li {
+                    width: 297px;
+                    text-align: center;
+                    display: inline-block;
+                    border-right: 1px solid #d4d4d4;
+                    .number {
+                        display: block;
+                        margin-top: 10px;
+                        color: #343434;
+                        font: 700 30px / 20px $open-sans;
+                        text-transform: uppercase;
+                    }
+                    .bottom {
+                        margin-top: 17px;
+                        margin-bottom: 14px;
+                        color: #717171;
+                        display: block;
+                        font: 400 18px / 18px $open-sans;
+
+                    }
+                }
+            }
+        }
+    }
+}
