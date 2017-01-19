@@ -68,3 +68,74 @@
         }
     }
 }
+.feature {
+    .wrap {
+        @include title-box;
+        .feature-flex-conteiner {
+            padding-left: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+            @include button;
+            .flex-block {
+                height: 340px;
+                width: 561px;
+                text-align: left;
+                min-width: 320px;
+                padding: 30px;
+                margin: 13px;
+                border-radius: 5px;
+                a {
+                    width: 101px;
+                }
+                .boat-name {
+                    margin-top: 182px;
+                    h2 {
+                        margin-bottom: 15px;
+                        color: white;
+                    }
+                    .map-and-users {
+                        padding-left: 0;
+                        list-style: none;
+                        li {
+                            span {
+
+                            }
+                        }
+                        .map {
+                            padding: 0;
+                            margin: 0;
+                            margin-right: 25px;
+                            display: inline-block;
+                            color: white;
+                            height: 20px;
+                        }
+                        .users {
+                            margin: 0;
+                            padding: 0;
+                            color: white;
+                            height: 20px;
+                            display: inline-block;
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+            .delphia-47 {
+                background: url("../img/delphia.png");
+            }
+            .sense-55 {
+                background: url("../img/sense.png");
+            }
+            .crusier-51 {
+                background: url("../img/crusier.png");
+            }
+            .crusier-41S {
+                background: url("../img/crusiec415.png");
+            }
+        }
+        @include white-button;
+    }
+}
