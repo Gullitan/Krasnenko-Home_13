@@ -1,0 +1,70 @@
+.wrap {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1175px;
+}
+.top-destination {
+    padding-bottom: 95px;
+    text-align: center;
+    .wrap {
+        @include title-box;
+        .destination-flex-conteiner {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 87px;
+            padding-left: 0;
+            @include button;
+            li {
+                margin: 10px;
+                padding: 30px;
+                text-align: left;
+                padding-top: 40px;
+                border-radius: 5px;
+                list-style: none;
+                min-width: 369px;
+                .countries {
+                    margin-top: 200px;
+                    color: white;
+                }
+            }
+            .portugal {
+                flex-grow: 2;
+                flex-basis: 750px;
+                background: url("../img/figueria.png") no-repeat;
+            }
+            .spain {
+                flex-grow: 1;
+                background: url("../img/ibiza.png") no-repeat;
+            }
+            .spain2 {
+                flex-grow: 1;
+                background: url("../img/palma.png") no-repeat;
+            }
+            .italy {
+                flex-grow: 1;
+                background: url("../img/portofino.png") no-repeat;
+            }
+            .monaco {
+                flex-grow: 1;
+                background: url("../img/hercules.png") no-repeat;
+            }
+        }
+        @include white-button;
+    }
+}
+.have-boat {
+    background: url("../img/make-photo.png") no-repeat;
+    overflow: hidden;
+    padding-bottom: 163px;
+    .wrap {
+        @include title;
+        a {
+            color: white;
+            text-transform: uppercase;
+            padding: 25px 45px;
+            background-color: #e7434e;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}

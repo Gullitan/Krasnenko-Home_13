@@ -1,7 +1,9 @@
 @mixin title {
     .title {
-        margin: 188px 0 auto;
+        padding-top: 188px;
+        padding-bottom: 90px;
         text-align: center;
+
         h1 {
             margin-bottom: 29px;
             font:700 72px / 51px $raleway;
@@ -13,5 +15,47 @@
             color: #f9fafe;
             text-transform: uppercase;
         }
+    }
+}
+@mixin title-box {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    .title-box {
+        h2 {
+            margin-top: 60px;
+            margin-bottom: 30px;
+        }
+        span {
+            margin-bottom: 70px;
+            display: block;
+        }
+    }
+}
+@mixin button{
+    li {
+        a {
+            width: 82px;
+            text-decoration: none;
+            color: white;
+            background-color: #e7434e;
+            font: 700 16px/20px sans-serif;
+            padding: 12px;
+            border-radius: 5px;
+            display: block;
+            i {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+@mixin white-button {
+    .white-button {
+        color: #343434;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid rgba(38, 38, 38, 0.3);
+        border-radius: 5px;
+        padding: 21px 46px;
     }
 }
