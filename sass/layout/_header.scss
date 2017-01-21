@@ -9,6 +9,7 @@ header {
             float: left;
             img {
                 margin-top: 8px;
+                margin-bottom: 25px;
             }
         }
         .nav {
@@ -20,6 +21,10 @@ header {
                     color: white;
                     padding: 10px 15px;
                     border-radius: 5px;
+                    &:hover {
+                        background-color: #A2A2A2;
+
+                    }
                 }
                 .but {
                     border: 1px solid #f9fafe;
@@ -32,20 +37,25 @@ header {
         @include title;
         .form-element {
             margin: 0 auto;
+            max-width: 732px;
             text-align: center;
             padding-bottom: 230px;
+            overflow: hidden;
             input {
-                width: 571px;
-                height: 60px;
+                width: 639px;
+                height: 61px;
                 border-radius: 5px;
                 border: none;
+                float: left;
+                padding-left: 50px;
             }
             a {
-                margin-left: -10px;
+                margin-left: -500px;
                 color: white;
-                padding: 22px 22px;
+                padding: 21px 30px;
                 background-color: #e7434e;
                 border-radius: 0 5px 5px 0;
+                float: right;
             }
         }
 
@@ -54,16 +64,15 @@ header {
         background-color: white;
         border-radius: 5px;
         box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
-        width: 1200px;
         padding: 30px 0;
         position: relative;
-        left: 5%;
+        bottom: 25px;
         .numbers {
             margin-bottom: 0;
             padding-left: 0;
             list-style: none;
             li {
-                width: 297px;
+                width: 290px;
                 text-align: center;
                 display: inline-block;
                 border-right: 1px solid #d4d4d4;
@@ -71,8 +80,6 @@ header {
                     display: block;
                     margin-top: 10px;
                     color: #343434;
-                    font: 700 30px / 20px $open-sans;
-                    text-transform: uppercase;
                 }
                 .bottom {
                     margin-top: 17px;

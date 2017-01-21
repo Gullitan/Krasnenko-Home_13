@@ -1,0 +1,45 @@
+.nav {
+    li {
+        text-transform: uppercase;
+        font: 700 16px / 20px $raleway;
+
+    }
+}
+.number {
+    font: 700 30px / 20px $open-sans;
+    text-transform: uppercase;
+}
+.bottom {
+    font: 400 18px / 18px $open-sans;
+}
+.countries {
+    h2 {
+        font: 400 30px / 25px $raleway;
+    }
+    span {
+        font: 400 20px / 25px $raleway;
+    }
+}
+.title {
+    a {
+        font: 700 14px / 20px $raleway;
+    }
+}
+.boat-name {
+    h2 {
+        font: 400 30px / 20px $raleway;
+    }
+}
+.map-and-users {
+    font: 400 16px / 15px $open-sans;
+}
+.footer {
+    li {
+        h3 {
+            font: 700 14px / 14px $raleway;
+        }
+        span {
+            font: 400 14px / 14px $open-sans;
+        }
+    }
+}

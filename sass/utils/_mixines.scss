@@ -6,7 +6,7 @@
 
         h1 {
             margin-bottom: 29px;
-            font:700 72px / 51px $raleway;
+            font:700 72px / 60px $raleway;
             color: #f9fafe;
             text-transform: uppercase;
         }
@@ -25,10 +25,12 @@
         h2 {
             margin-top: 60px;
             margin-bottom: 30px;
+            font: 400 30px / 30px $raleway;
         }
         span {
             margin-bottom: 70px;
             display: block;
+            font: 400 16px / 20px $open-sans;
         }
     }
 }
@@ -39,23 +41,33 @@
             text-decoration: none;
             color: white;
             background-color: #e7434e;
-            font: 700 16px/20px sans-serif;
+            font: 700 16px/20px $open-sans;
             padding: 12px;
             border-radius: 5px;
             display: block;
             i {
                 margin-right: 8px;
             }
+            &:hover {
+                background-color: #E73742;
+                color: #E4E4E4;
+            }
         }
+
     }
 }
 @mixin white-button {
     .white-button {
+        font: 700 14px / 20px $raleway;
         color: #343434;
         text-decoration: none;
         text-transform: uppercase;
         border: 1px solid rgba(38, 38, 38, 0.3);
         border-radius: 5px;
         padding: 21px 46px;
+        &:hover {
+            background-color: #717171;
+            color: white;
+        }
     }
 }

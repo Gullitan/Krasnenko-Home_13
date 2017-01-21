@@ -15,21 +15,22 @@
             padding-left: 0;
             @include button;
             li {
-                margin: 10px;
-                padding: 30px;
+                margin: 6px;
+                padding: 25px;
                 text-align: left;
                 padding-top: 40px;
                 border-radius: 5px;
                 list-style: none;
-                min-width: 369px;
+                min-width: 320px;
+                width: 368px;
                 .countries {
-                    margin-top: 200px;
+                    margin-top: 192px;
                     color: white;
                 }
             }
             .portugal {
                 flex-grow: 2;
-                flex-basis: 750px;
+                flex-basis: 744px;
                 background: url("../img/figueria.png") no-repeat;
             }
             .spain {
@@ -65,6 +66,9 @@
             background-color: #e7434e;
             border-radius: 5px;
             text-decoration: none;
+            &:hover {
+                color: #EEEEEE;
+            }
         }
     }
 }
@@ -89,10 +93,10 @@
                 margin: 7px;
                 border-radius: 5px;
                 a {
-                    width: 101px;
+                    width: 105px;
                 }
                 .boat-name {
-                    margin-top: 170px;
+                    margin-top: 182px;
                     h2 {
                         margin-bottom: 15px;
                         color: white;
